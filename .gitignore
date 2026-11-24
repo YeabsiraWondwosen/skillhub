@@ -1,0 +1,37 @@
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.local
+.env.production
+*.log
+*.out
+.DS_Store
+Thumbs.db
+
+# Destructive DB scripts / test artifacts — do NOT commit these.
+# They may mutate or destroy data and must only run in explicit dev/test mode.
+/backend/*.log
+/backend/backend.log
+/backend/backend-err.log
+/backend/server-fix.*.log
+/backend/e2e*.log
+/backend/cleanup-wallets.mjs
+/backend/diagnose-db.mjs
+/backend/test-catalog-flow.mjs
+/backend/test-payment-e2e.js
+/backend/.reputation-fix-test.mjs
+/backend/.review-e2e-recalc.mjs
+/backend/.review-audit.mjs
+/backend/.review-inspect.mjs
+/backend/.review-api-test.mjs
+/backend/.review-verify.mjs
+/backend/.review-live-test.mjs
+/backend/.calendar-inspect.mjs
+/backend/.calendar-e2e.mjs
+/backend/walletDiagnostic.mjs
+/backend/wallet-repair-report.json
+/repro-task-conflict.mjs
+/jop-inspect-scratch.mjs
+/jop-users-scratch.mjs
