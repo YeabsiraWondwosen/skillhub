@@ -1,0 +1,1201 @@
+[INFO] Payment mode: DEMO — All payment gateways simulated. No real money will be charged.
+2026-10-02 02:10:36 [[32minfo[39m]: [32mMongoDB connected: localhost[39m
+2026-10-02 02:10:36 [[32minfo[39m]: [32m[AI] Gemini provider initialized with model: gemini-flash-latest[39m
+2026-10-02 02:10:36 [[32minfo[39m]: [32m[AI] Primary provider: gemini[39m
+2026-10-02 02:10:37 [[32minfo[39m]: [32m[Category] Archiving 0 obsolete categories[39m
+2026-10-02 02:10:37 [[32minfo[39m]: [32m[Category] Seed complete: {"created":{"mains":0,"subs":0},"updated":{"mains":5,"subs":50},"skills":{"created":642,"preserved":0},"migration":{"jobsUpdated":1,"profilesUpdated":0},"archive":{"archived":0,"removed":0},"iconsFixed":0,"mainCount":5,"subCount":50}[39m
+2026-10-02 02:10:37 [[32minfo[39m]: [32mSocket.io initialized[39m
+2026-10-02 02:10:37 [[32minfo[39m]: [32mMeeting reminder job scheduled[39m
+2026-10-02 02:10:37 [[32minfo[39m]: [32m[39m
+[32m╔══════════════════════════════════════════╗[39m
+[32m║       SkillHub API Server Started        ║[39m
+[32m║  Environment: development               ║[39m
+[32m║  Port:        5999                      ║[39m
+[32m║  Payment:     demo                      ║[39m
+[32m║  API:         /api/v1                    ║[39m
+[32m╚══════════════════════════════════════════╝[39m
+[32m      [39m
+2026-10-02 02:14:37 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 02:14:37 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 02:14:37 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 9.239 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [33m401[0m 2.636 ms - -[0m
+[0mGET /api/v1/client/dashboard [33m401[0m 1.395 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 26.384 ms - 730[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 33.518 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 31.578 ms - -[0m
+[0mGET /api/v1/client/dashboard [36m304[0m 36.230 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.596 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 16.604 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.183 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.225 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e30b/skills [36m304[0m 3.578 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.135 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.312 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.518 ms - -[0m
+2026-10-02 02:16:10 [[33mwarn[39m]: [33mValidation failed[39m
+[0mPOST /api/v1/jobs [33m400[0m 16.150 ms - -[0m
+[0mGET /api/v1/analytics/public [36m304[0m 9.462 ms - -[0m
+2026-10-02 03:24:57 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 03:24:57 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/categories/tree [36m304[0m 16.193 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 1.670 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [33m401[0m 2.522 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e30b/skills [36m304[0m 5.182 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 10.025 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 7.418 ms - 730[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.849 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.601 ms - -[0m
+2026-10-02 03:40:46 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 03:40:46 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 2.551 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [33m401[0m 1.204 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e30b/skills [36m304[0m 8.193 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 12.522 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 7.110 ms - 730[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.319 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.332 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 20.073 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e30b/skills [36m304[0m 4.835 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 16.948 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 24.964 ms - -[0m
+[0mGET /api/v1/client/dashboard [36m304[0m 21.298 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.057 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e298/skills [32m200[0m 10.743 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.554 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.830 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 9.499 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.801 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.362 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.320 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.031 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.568 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.883 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 9.120 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.159 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e298/skills [36m304[0m 3.829 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.238 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.138 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.823 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.873 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e2f0/skills [32m200[0m 4.401 ms - -[0m
+2026-10-02 03:55:56 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 8.117 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 5.402 ms - 730[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.077 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.204 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.410 ms - -[0m
+[0mPOST /api/v1/jobs [32m201[0m 4268.997 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 119.645 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.344 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 8.305 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 11.992 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 10.044 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.022 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.036 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 9.717 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 11.135 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 24.237 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 9.431 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.938 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.563 ms - -[0m
+[0mGET /api/v1/client/dashboard [32m200[0m 38.121 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 8.686 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&sortBy=newest&page=1&limit=10 [32m200[0m 15.540 ms - -[0m
+[0mGET /api/v1/categories [32m200[0m 4.116 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 21.421 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 12.610 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.973 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 18.397 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 15.384 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.969 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.373 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.808 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.843 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.252 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 9.629 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 5.551 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 14.973 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.256 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.217 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.119 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.823 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.601 ms - -[0m
+[0mGET /api/v1/messages/conversations [36m304[0m 6.417 ms - -[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [32m200[0m 29.542 ms - 81[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [36m304[0m 16.465 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.858 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.646 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.274 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.290 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.872 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.406 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.259 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.764 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.233 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.143 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.178 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.158 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.178 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.281 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.152 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.792 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.535 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 3.653 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.198 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.912 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.507 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.228 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.161 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.404 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.795 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.245 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.155 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.384 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.516 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.400 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.281 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.505 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.125 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.710 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.552 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.453 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.152 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.862 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.070 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.350 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.762 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.868 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&sortBy=newest&page=1&limit=10 [32m200[0m 8.635 ms - -[0m
+[0mGET /api/v1/client/dashboard [36m304[0m 24.386 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.734 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.603 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.267 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.542 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.796 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.945 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.941 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&sortBy=newest&page=1&limit=10 [36m304[0m 9.999 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&sortBy=newest&page=1&limit=10 [36m304[0m 6.653 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 11.704 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 3.777 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&sortBy=newest&page=1&limit=10 [36m304[0m 7.683 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 2.853 ms - 69[0m
+[0mGET /api/v1/categories/tree [36m304[0m 11.150 ms - -[0m
+[0mPOST /api/v1/auth/login [32m200[0m 306.253 ms - -[0m
+2026-10-02 04:07:50 [[32minfo[39m]: [32mSocket connected: 6a78ac0349670f180ecc3e4f (eT5ZsLSEtQQjMP2HAAAB)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.369 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 13.635 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.868 ms - -[0m
+[0mGET /api/v1/admin/dashboard [32m200[0m 34.190 ms - 212[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 43.508 ms - -[0m
+[0mGET /api/v1/analytics/platform [32m200[0m 59.628 ms - 280[0m
+[0mGET /api/v1/admin/finance/revenue?period=monthly [36m304[0m 39.124 ms - -[0m
+[0mGET /api/v1/admin/jobs?page=1&limit=15 [32m200[0m 17.377 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.624 ms - -[0m
+[0mGET /api/v1/admin/jobs/6a7aeff719122ee4afcff483 [32m200[0m 6.806 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.026 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.220 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 2.046 ms - 69[0m
+2026-10-02 04:08:35 [[32minfo[39m]: [32mSocket disconnected: 6a78ac0349670f180ecc3e4f (eT5ZsLSEtQQjMP2HAAAB)[39m
+[0mGET /api/v1/categories/tree [36m304[0m 8.555 ms - -[0m
+[0mGET /api/v1/categories/6a78a0d1cb225a846351e298/skills [36m304[0m 2.426 ms - -[0m
+2026-10-02 04:09:52 [[33mwarn[39m]: [33mEmail already registered[39m
+[0mPOST /api/v1/auth/register [33m409[0m 6.768 ms - 337[0m
+[0mPOST /api/v1/auth/register [32m201[0m 315.661 ms - -[0m
+[0mPOST /api/v1/auth/login [32m200[0m 300.096 ms - -[0m
+2026-10-02 04:10:12 [[32minfo[39m]: [32mSocket connected: 6abf9110c6efc35ecd09c552 (SbB2hsvq1Dz7vq_VAAAD)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.424 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 28.508 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.206 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [36m304[0m 34.077 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 42.881 ms - -[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 20.369 ms - -[0m
+2026-10-02 04:10:12 [[32minfo[39m]: [32m[AI] Gemini client initialized with model: gemini-flash-latest[39m
+[0mGET /api/v1/users/me/profile [32m200[0m 14.992 ms - -[0m
+2026-10-02 04:10:17 [[32minfo[39m]: [32m[email] Using Ethereal test account (mf33iwz75agxtzjs@ethereal.email) — message previews at https://ethereal.email[39m
+2026-10-02 04:10:24 [[32minfo[39m]: [32m[email:welcome] sent — To: anaana@gmail.com, MessageID: <6799424c-f56f-eb2f-cd2a-2bcdd3fae5e7@skillhub.dev>, Response: 250 Accepted [STATUS=new MSGID=ar-REwLEqXPhbrx6ar-RIJ0L.yTpAAI1AAAAAbVnbQS4ABIwnzEx8d465XM], Time: 2026-10-02T11:10:23.999Z[39m
+2026-10-02 04:10:24 [[32minfo[39m]: [32m[email:welcome] Ethereal preview: https://ethereal.email/message/ar-REwLEqXPhbrx6ar-RIJ0L.yTpAAI1AAAAAbVnbQS4ABIwnzEx8d465XM[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.713 ms - -[0m
+[0mGET /api/v1/jobs?page=1&limit=10&search=&category=&subcategory=&sortBy=best_match&experienceLevel=&budgetType=&minBudget=&maxBudget=&skills=&duration= [32m200[0m 13.722 ms - -[0m
+[0mGET /api/v1/jobs?page=1&limit=10&search=&category=&subcategory=&sortBy=best_match&experienceLevel=&budgetType=&minBudget=&maxBudget=&skills=&duration= [36m304[0m 13.375 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 15.403 ms - -[0m
+2026-10-02 04:10:37 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 500ms[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.354 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.272 ms - -[0m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.092 ms - -[0m
+2026-10-02 04:11:02 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 1500ms[39m
+2026-10-02 04:11:05 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 500ms[39m
+[0mGET /api/v1/ai/full-proposal/6abf8dd7c6efc35ecd09c387 [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.848 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.414 ms - -[0m
+2026-10-02 04:11:13 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash[39m
+[33mPlease retry in 47.134972976s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}][39m
+2026-10-02 04:11:13 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 04:11:13 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash[39m
+[33mPlease retry in 47.136122561s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"47s"}][39m
+2026-10-02 04:11:13 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/ai/full-proposal/6abf8dd7c6efc35ecd09c387 [32m200[0m 1992.640 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.708 ms - -[0m
+2026-10-02 04:11:29 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted[39m
+2026-10-02 04:11:29 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 04:11:30 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 1500ms[39m
+2026-10-02 04:11:31 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:11:31 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:11:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.[39m
+2026-10-02 04:11:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 04:11:37 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:11:37 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.125 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.085 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.729 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 19.833 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 30.751 ms - -[0m
+2026-10-02 04:17:10 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 500ms[39m
+2026-10-02 04:17:12 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 1500ms[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.920 ms - -[0m
+2026-10-02 04:17:33 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 500ms[39m
+[0mGET /api/v1/ai/full-proposal/6abf8dd7c6efc35ecd09c387 [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 11.475 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 11.002 ms - -[0m
+2026-10-02 04:17:39 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted[39m
+2026-10-02 04:17:39 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 04:17:42 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 500ms[39m
+2026-10-02 04:17:43 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:17:43 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:17:43 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 1500ms[39m
+2026-10-02 04:17:43 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash[39m
+[33mPlease retry in 16.235285527s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"16s"}][39m
+2026-10-02 04:17:43 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 04:17:45 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash[39m
+[33mPlease retry in 14.272849253s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"14s"}][39m
+2026-10-02 04:17:45 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.944 ms - -[0m
+2026-10-02 04:17:54 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 500ms[39m
+2026-10-02 04:17:56 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.8-flash[39m
+[33mPlease retry in 3.591374103s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"5"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"3s"}][39m
+2026-10-02 04:17:56 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/ai/full-proposal/6abf8dd7c6efc35ecd09c387 [32m200[0m 17446.208 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.872 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.705 ms - -[0m
+2026-10-02 04:18:08 [[32minfo[39m]: [32m[email:application_received] sent — To: a23@gmail.com, MessageID: <9c89812e-6c2b-0b00-43b6-b2c33241ffd6@skillhub.dev>, Response: 250 Accepted [STATUS=new MSGID=ar-REwLEqXPhbrx6ar-S8LJrKujo8aD-AAAAAojTPFiw0eyhVP-QwgSnckw], Time: 2026-10-02T11:18:08.345Z[39m
+2026-10-02 04:18:08 [[32minfo[39m]: [32m[email:application_received] Ethereal preview: https://ethereal.email/message/ar-REwLEqXPhbrx6ar-S8LJrKujo8aD-AAAAAojTPFiw0eyhVP-QwgSnckw[39m
+[0mPOST /api/v1/applications/jobs/6abf8dd7c6efc35ecd09c387 [32m201[0m 5086.883 ms - -[0m
+[0mGET /api/v1/applications/my?page=1&limit=10 [32m200[0m 24.911 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 10.034 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 12.091 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 24.817 ms - -[0m
+[0mGET /api/v1/analytics/public [32m200[0m 13.897 ms - 177[0m
+[0mGET /api/v1/categories/tree [36m304[0m 20.817 ms - -[0m
+[0mPOST /api/v1/auth/login [32m200[0m 312.078 ms - -[0m
+2026-10-02 04:19:36 [[32minfo[39m]: [32mSocket connected: 6abf5fb138b02bfe65fb470e (FAvMp9wC0P0nGhy6AAAF)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.349 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.495 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 18.739 ms - 115[0m
+[0mGET /api/v1/client/dashboard [32m200[0m 30.851 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 41.477 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 8.075 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 8.506 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 27.862 ms - -[0m
+[0mGET /api/v1/applications/jobs/6abf8dd7c6efc35ecd09c387?page=1&limit=10 [32m200[0m 31.115 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 9.069 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 17.491 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 8.633 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 7.641 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 14.681 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.695 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.136 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 17.982 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 13.051 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 11.691 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.756 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 10.532 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 12.875 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 11.209 ms - -[0m
+[0mPOST /api/v1/applications/6abf92ebc6efc35ecd09c5f5/hire [32m201[0m 60.447 ms - -[0m
+[0mGET /api/v1/applications/jobs/6abf8dd7c6efc35ecd09c387?page=1&limit=10 [32m200[0m 38.293 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 17.526 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 14.117 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 13.467 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [32m200[0m 48.310 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 17.209 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [32m200[0m 20.919 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 15.086 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 22.318 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.052 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 14.909 ms - -[0m
+[0mGET /api/v1/payments/wallet [36m304[0m 5.318 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.372 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.144 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.357 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.410 ms - -[0m
+2026-10-02 04:21:15 [[32minfo[39m]: [32m[DB] MongoDB transactions: NOT supported (standalone) — using sequential operations[39m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.560 ms - 127[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 10.772 ms - -[0m
+2026-10-02 04:21:23 [[32minfo[39m]: [32m[email:payment_received] sent — To: a23@gmail.com, MessageID: <fe55a935-bfa8-a581-1d89-b744415ca51d@skillhub.dev>, Response: 250 Accepted [STATUS=new MSGID=ar-REwLEqXPhbrx6ar-Ts50L.yTpAALZAAAAAwyj9P91RalaRp6hbC7l98U], Time: 2026-10-02T11:21:23.828Z[39m
+2026-10-02 04:21:23 [[32minfo[39m]: [32m[email:payment_received] Ethereal preview: https://ethereal.email/message/ar-REwLEqXPhbrx6ar-Ts50L.yTpAALZAAAAAwyj9P91RalaRp6hbC7l98U[39m
+[0mPOST /api/v1/payments/deposit/stripe [32m200[0m 8058.124 ms - 371[0m
+[0mGET /api/v1/payments/wallet [32m200[0m 4.201 ms - 466[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 8.655 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.681 ms - 127[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 10.773 ms - -[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 6.573 ms - 612[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.556 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.806 ms - 127[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/fund [32m200[0m 80.525 ms - 659[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 17.541 ms - 119[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 38.973 ms - 650[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 42.584 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 42.186 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [32m200[0m 29.770 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [32m200[0m 22.509 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 22.224 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 8.786 ms - 127[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 15.163 ms - -[0m
+[0mGET /api/v1/projects?page=1&limit=10 [32m200[0m 19.249 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.359 ms - 119[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 15.531 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 13.670 ms - -[0m
+[0mGET /api/v1/messages/conversations [36m304[0m 4.894 ms - -[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [32m200[0m 18.910 ms - 382[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [36m304[0m 23.815 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.737 ms - -[0m
+[0mPOST /api/v1/messages/conversations/start [32m200[0m 35.944 ms - -[0m
+[0mGET /api/v1/messages/conversations [32m200[0m 8.620 ms - -[0m
+[0mGET /api/v1/messages/conversations/6abf93ffc6efc35ecd09c7f8/messages?limit=50 [32m200[0m 22.176 ms - 166[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.601 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.417 ms - -[0m
+[0mGET /api/v1/ai-messaging/messages/6abf93ffc6efc35ecd09c7f8/pinned [32m200[0m 19.227 ms - 71[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.913 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.717 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.593 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.308 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.578 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.250 ms - -[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 7.629 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.114 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.095 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.212 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.706 ms - -[0m
+2026-10-02 04:24:53 [[31merror[39m]: [31mFile upload error: Cloudinary upload failed: Request Timeout[39m
+2026-10-02 04:24:53 [[31merror[39m]: [31mFailed to upload file ICT_Park_AMS_Internship_Report.docx: Error: Cloudinary upload failed: Request Timeout[39m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [32m200[0m 5057.933 ms - 737[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 18.316 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.588 ms - -[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 12.805 ms - 738[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 10.658 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.290 ms - 139[0m
+2026-10-02 04:24:54 [[31merror[39m]: [31mFile upload error: Cloudinary upload failed: Request Timeout[39m
+2026-10-02 04:24:54 [[31merror[39m]: [31mFailed to upload file ICT_Park_AMS_Internship_Report.docx: Error: Cloudinary upload failed: Request Timeout[39m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [32m200[0m 5045.075 ms - 737[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 8.010 ms - 738[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [0m-[0m - ms - -[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [0m-[0m - ms - -[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [0m-[0m - ms - -[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.877 ms - 119[0m
+2026-10-02 04:25:13 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/applications/my?page=1&limit=10 [33m401[0m 2.005 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 9.759 ms - 730[0m
+2026-10-02 04:25:13 [[33mwarn[39m]: [33mAccess denied. Required role: freelancer. Your role: client[39m
+[0mGET /api/v1/applications/my?page=1&limit=10 [33m403[0m 5.747 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.515 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.173 ms - 139[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.261 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.987 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.228 ms - 139[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [32m200[0m 31.378 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 16.782 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 10.870 ms - 139[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 14.813 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 15.893 ms - -[0m
+2026-10-02 04:26:16 [[31merror[39m]: VersionError: No matching document found for id "6abf9380c6efc35ecd09c6c9" version 0 modifiedPaths "status, deliveryFiles, deliveryNote, submittedAt"
+    at generateVersionError (C:\Users\CG\Desktop\SKILLHUB PRESENTATION\skill hub project\skillhub\node_modules\mongoose\lib\model.js:566:10)
+    at model.save (C:\Users\CG\Desktop\SKILLHUB PRESENTATION\skill hub project\skillhub\node_modules\mongoose\lib\model.js:624:28)
+    at file:///C:/Users/CG/Desktop/SKILLHUB%20PRESENTATION/skill%20hub%20project/skillhub/backend/src/controllers/milestone.controller.js:230:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 10.310 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 9.711 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.810 ms - -[0m
+2026-10-02 04:26:33 [[31merror[39m]: [31mFile upload error: Cloudinary upload failed: Request Timeout[39m
+2026-10-02 04:26:33 [[31merror[39m]: [31mFailed to upload file ICT_Park_AMS_Internship_Report.docx: Error: Cloudinary upload failed: Request Timeout[39m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.071 ms - 139[0m
+2026-10-02 04:26:43 [[31merror[39m]: [31mFile upload error: Cloudinary upload failed: Request Timeout[39m
+2026-10-02 04:26:43 [[31merror[39m]: [31mFailed to upload file ICT_Park_AMS_Internship_Report.docx: Error: Cloudinary upload failed: Request Timeout[39m
+2026-10-02 04:26:43 [[32minfo[39m]: [32mSocket disconnected: 6abf5fb138b02bfe65fb470e (FAvMp9wC0P0nGhy6AAAF)[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.236 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.411 ms - 139[0m
+2026-10-02 04:27:01 [[32minfo[39m]: [32mSocket disconnected: 6abf9110c6efc35ecd09c552 (SbB2hsvq1Dz7vq_VAAAD)[39m
+2026-10-02 04:28:11 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/auth/me [33m401[0m 2.670 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 14.304 ms - 762[0m
+[0mGET /api/v1/auth/me [32m200[0m 9.935 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.455 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.962 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.308 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 12.580 ms - -[0m
+2026-10-02 04:28:11 [[33mwarn[39m]: [33mNot authorized[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m403[0m 12.175 ms - 321[0m
+[0mGET /api/v1/analytics/public [32m200[0m 11.550 ms - 177[0m
+[0mGET /api/v1/categories/tree [36m304[0m 14.289 ms - -[0m
+[0mGET /api/v1/auth/me [36m304[0m 11.027 ms - -[0m
+2026-10-02 04:28:23 [[32minfo[39m]: [32mSocket connected: 6abaa8b50ebdf27d47985f7e (1eDRpUdmRlxs8JqZAAAJ)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.494 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.241 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 19.142 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 34.968 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [36m304[0m 26.726 ms - -[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 29.253 ms - -[0m
+[0mGET /api/v1/users/me/profile [36m304[0m 20.664 ms - -[0m
+2026-10-02 04:28:39 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/applications/my?page=1&limit=10 [36m304[0m 6.553 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.871 ms - -[0m
+2026-10-02 04:28:50 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.626 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.895 ms - -[0m
+2026-10-02 04:29:02 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 04:29:02 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 04:29:04 [[32minfo[39m]: [32mSocket disconnected: 6abaa8b50ebdf27d47985f7e (1eDRpUdmRlxs8JqZAAAJ)[39m
+2026-10-02 04:29:13 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 04:29:24 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 04:29:37 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:29:37 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+[0mGET /api/v1/analytics/public [36m304[0m 8.001 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 12.072 ms - -[0m
+[0mGET /api/v1/auth/me [32m200[0m 16.156 ms - -[0m
+2026-10-02 04:29:45 [[32minfo[39m]: [32mSocket connected: 6abaa8b50ebdf27d47985f7e (Fn1IPghT6VjhZ6RoAAAL)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.426 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 21.534 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.428 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [36m304[0m 25.492 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 29.223 ms - -[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 20.405 ms - -[0m
+[0mGET /api/v1/users/me/profile [36m304[0m 9.162 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 2.313 ms - 69[0m
+2026-10-02 04:29:59 [[32minfo[39m]: [32mSocket disconnected: 6abaa8b50ebdf27d47985f7e (Fn1IPghT6VjhZ6RoAAAL)[39m
+2026-10-02 04:30:06 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+[0mPOST /api/v1/auth/login [32m200[0m 304.832 ms - -[0m
+2026-10-02 04:30:09 [[32minfo[39m]: [32mSocket connected: 6abf9110c6efc35ecd09c552 (hVkcZV_jjbKYHDSyAAAN)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.221 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 7.263 ms - 119[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.181 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [32m200[0m 18.989 ms - 282[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 16.816 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 30.328 ms - -[0m
+[0mGET /api/v1/users/me/profile [32m200[0m 22.633 ms - -[0m
+2026-10-02 04:30:17 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.608 ms - -[0m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 9.900 ms - -[0m
+[0mGET /api/v1/jobs?page=1&limit=10&search=&category=&subcategory=&sortBy=best_match&experienceLevel=&budgetType=&minBudget=&maxBudget=&skills=&duration= [32m200[0m 15.901 ms - -[0m
+[0mGET /api/v1/jobs?page=1&limit=10&search=&category=&subcategory=&sortBy=best_match&experienceLevel=&budgetType=&minBudget=&maxBudget=&skills=&duration= [36m304[0m 10.107 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.218 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.227 ms - -[0m
+2026-10-02 04:30:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/applications/my?page=1&limit=10 [32m200[0m 15.741 ms - -[0m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+[0mGET /api/v1/projects?page=1&limit=10 [32m200[0m 13.320 ms - -[0m
+2026-10-02 04:30:44 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted[39m
+2026-10-02 04:30:44 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 10.883 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.327 ms - -[0m
+2026-10-02 04:30:52 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 1500ms[39m
+2026-10-02 04:30:54 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:30:54 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 04:30:56 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h29m5.174704426s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44945s"}][39m
+2026-10-02 04:30:56 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.381 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.658 ms - -[0m
+[0mGET /api/v1/analytics/public [36m304[0m 5.773 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 10.773 ms - -[0m
+[0mGET /api/v1/auth/me [32m200[0m 11.449 ms - -[0m
+2026-10-02 04:31:17 [[32minfo[39m]: [32mSocket connected: 6abf9110c6efc35ecd09c552 (4p38Rgi-5-dfHwmRAAAP)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.402 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.387 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 18.912 ms - -[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 16.619 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [36m304[0m 31.519 ms - -[0m
+[0mGET /api/v1/users/me/profile [36m304[0m 28.991 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 50.673 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 2.696 ms - 69[0m
+2026-10-02 04:31:24 [[32minfo[39m]: [32mSocket disconnected: 6abf9110c6efc35ecd09c552 (4p38Rgi-5-dfHwmRAAAP)[39m
+2026-10-02 04:31:25 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h28m35.082134287s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44915s"}][39m
+2026-10-02 04:31:25 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [32m200[0m 3894.523 ms - 943[0m
+[0mPOST /api/v1/auth/login [32m200[0m 303.721 ms - -[0m
+2026-10-02 04:31:29 [[32minfo[39m]: [32mSocket connected: 6abf5fb138b02bfe65fb470e (anqGfzggF1fCn-TgAAAR)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.270 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.297 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 10.977 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 22.395 ms - -[0m
+[0mGET /api/v1/client/dashboard [32m200[0m 32.444 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.641 ms - 139[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.247 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 14.315 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [32m200[0m 30.390 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [32m200[0m 19.757 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 23.422 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 19.991 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.577 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 25.074 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 12.349 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 15.338 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 27.599 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 8.458 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.919 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 24.809 ms - -[0m
+[0mGET /api/v1/payments/wallet [32m200[0m 6.871 ms - 467[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 7.220 ms - 139[0m
+[0mGET /api/v1/messages/conversations [32m200[0m 5.875 ms - -[0m
+[0mGET /api/v1/meetings?limit=100&scope=upcoming [36m304[0m 22.166 ms - -[0m
+[0mGET /api/v1/notifications/ai-recommendations?limit=10 [36m304[0m 4.245 ms - -[0m
+[0mGET /api/v1/notifications?page=1&limit=15&includeAi=false [32m200[0m 9.399 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.907 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 12.722 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 26.960 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.253 ms - 139[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 18.284 ms - -[0m
+[0mGET /api/v1/project-planner [32m200[0m 11.351 ms - 168[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.343 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.606 ms - 139[0m
+2026-10-02 04:33:33 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h26m26.930673578s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"44786s"}][39m
+2026-10-02 04:33:33 [[31merror[39m]: [31mProject planner AI error: AI service is temporarily unavailable. Please try again later.[39m
+[0mPOST /api/v1/project-planner [32m201[0m 2218.964 ms - -[0m
+[0mGET /api/v1/project-planner [32m200[0m 4.746 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 7.667 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.902 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.347 ms - 139[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 34.099 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 27.590 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 23.298 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 7.876 ms - 139[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 24.784 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?page=1&limit=100 [32m200[0m 8.663 ms - -[0m
+[0mGET /api/v1/applications/jobs/6abf8dd7c6efc35ecd09c387?page=1&limit=100 [32m200[0m 26.578 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 33.216 ms - -[0m
+[0mGET /api/v1/applications/jobs/6abf8dd7c6efc35ecd09c387?page=1&limit=10 [32m200[0m 33.758 ms - -[0m
+[0mGET /api/v1/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 11.704 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.526 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.173 ms - 139[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 5.923 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.503 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.263 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 33.552 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 22.709 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.851 ms - 139[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 20.768 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 21.733 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 18.451 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.715 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.690 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.050 ms - 139[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 8.635 ms - -[0m
+[0mPOST /api/v1/messages/conversations/start [32m200[0m 31.909 ms - -[0m
+[0mGET /api/v1/messages/conversations/6abf93ffc6efc35ecd09c7f8/messages?limit=50 [32m200[0m 10.394 ms - 166[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.568 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 9.471 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.623 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.302 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.236 ms - 139[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 9.319 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.499 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.046 ms - 139[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/revision [32m200[0m 22.843 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 20.814 ms - 119[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 28.919 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 23.343 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 13.747 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.829 ms - -[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 6.836 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.953 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.569 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.938 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.949 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.100 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 16.119 ms - -[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/submit [32m200[0m 11843.388 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 19.253 ms - 139[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 31.060 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 33.532 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 7.248 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.715 ms - 119[0m
+2026-10-02 04:37:41 [[32minfo[39m]: [32mSocket disconnected: 6abf5fb138b02bfe65fb470e (anqGfzggF1fCn-TgAAAR)[39m
+[0mGET /api/v1/auth/me [32m200[0m 7.013 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.269 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.345 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 11.214 ms - 139[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 13.620 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 19.260 ms - -[0m
+2026-10-02 04:37:42 [[32minfo[39m]: [32mSocket connected: 6abf5fb138b02bfe65fb470e (CSYBq99amLUAGotSAAAT)[39m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [32m200[0m 31.595 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [32m200[0m 24.068 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.316 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 16.300 ms - -[0m
+[0mGET /api/v1/contracts/6abf9380c6efc35ecd09c6c7 [36m304[0m 18.647 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 7.080 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 5.676 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.751 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.387 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 3.984 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 8.119 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.102 ms - 119[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 6.057 ms - -[0m
+[0mGET /api/v1/projects?page=1&limit=10 [36m304[0m 9.584 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.497 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.211 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.633 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 7.792 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.316 ms - 139[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 7.177 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.931 ms - 139[0m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/approve [32m200[0m 96.499 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 15.439 ms - 119[0m
+2026-10-02 04:39:27 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 1.036 ms - 721[0m
+2026-10-02 04:39:27 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.643 ms - 721[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 21.227 ms - -[0m
+2026-10-02 04:39:28 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 7.031 ms - 721[0m
+2026-10-02 04:39:28 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 1.458 ms - 721[0m
+2026-10-02 04:39:30 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.725 ms - 721[0m
+2026-10-02 04:39:30 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 1.638 ms - 721[0m
+2026-10-02 04:39:35 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/categories/tree [33m429[0m 0.757 ms - 721[0m
+2026-10-02 04:39:36 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/categories/tree [33m429[0m 1.028 ms - 721[0m
+2026-10-02 04:39:37 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [33m429[0m 0.867 ms - 721[0m
+2026-10-02 04:39:38 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [33m429[0m 1.137 ms - 721[0m
+2026-10-02 04:39:40 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [33m429[0m 0.874 ms - 721[0m
+2026-10-02 04:39:42 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 6.392 ms - 721[0m
+2026-10-02 04:39:42 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 0.697 ms - 721[0m
+2026-10-02 04:39:43 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 7.214 ms - 721[0m
+2026-10-02 04:39:43 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 1.401 ms - 721[0m
+2026-10-02 04:39:44 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [33m429[0m 6.261 ms - 721[0m
+2026-10-02 04:39:45 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 5.961 ms - 721[0m
+2026-10-02 04:39:45 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 0.895 ms - 721[0m
+2026-10-02 04:39:45 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [33m429[0m 6.473 ms - 721[0m
+2026-10-02 04:39:47 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.837 ms - 721[0m
+2026-10-02 04:39:48 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 7.832 ms - 721[0m
+2026-10-02 04:39:50 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 6.422 ms - 721[0m
+2026-10-02 04:39:56 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 5.854 ms - 721[0m
+2026-10-02 04:39:56 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.690 ms - 721[0m
+2026-10-02 04:39:57 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 7.244 ms - 721[0m
+2026-10-02 04:39:57 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.652 ms - 721[0m
+2026-10-02 04:39:59 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 7.089 ms - 721[0m
+2026-10-02 04:39:59 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.702 ms - 721[0m
+2026-10-02 04:40:00 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/approve [33m429[0m 6.462 ms - 721[0m
+2026-10-02 04:40:00 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 0.702 ms - 721[0m
+2026-10-02 04:40:01 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 10.372 ms - 721[0m
+2026-10-02 04:40:03 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 9.871 ms - 721[0m
+2026-10-02 04:40:19 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 6.441 ms - 721[0m
+2026-10-02 04:40:19 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 1.050 ms - 721[0m
+2026-10-02 04:40:19 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.929 ms - 721[0m
+2026-10-02 04:40:19 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.996 ms - 721[0m
+2026-10-02 04:40:20 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 6.610 ms - 721[0m
+2026-10-02 04:40:20 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 1.040 ms - 721[0m
+2026-10-02 04:40:20 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.893 ms - 721[0m
+2026-10-02 04:40:20 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.796 ms - 721[0m
+2026-10-02 04:40:22 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 6.647 ms - 721[0m
+2026-10-02 04:40:22 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications?limit=5 [33m429[0m 0.770 ms - 721[0m
+2026-10-02 04:40:22 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.716 ms - 721[0m
+2026-10-02 04:40:22 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [33m429[0m 0.767 ms - 721[0m
+2026-10-02 04:40:23 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/milestones/6abf9380c6efc35ecd09c6c9/approve [33m429[0m 6.244 ms - 721[0m
+2026-10-02 04:40:29 [[32minfo[39m]: [32mSocket disconnected: 6abf5fb138b02bfe65fb470e (CSYBq99amLUAGotSAAAT)[39m
+2026-10-02 04:40:34 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/analytics/public [33m429[0m 1.480 ms - 721[0m
+2026-10-02 04:40:34 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/categories/tree [33m429[0m 0.806 ms - 721[0m
+2026-10-02 04:40:34 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/auth/me [33m429[0m 1.183 ms - 721[0m
+2026-10-02 04:40:35 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/categories/tree [33m429[0m 7.514 ms - 721[0m
+2026-10-02 04:40:45 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/auth/login [33m429[0m 0.935 ms - 721[0m
+2026-10-02 04:40:46 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/auth/login [33m429[0m 6.739 ms - 721[0m
+2026-10-02 04:41:02 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/auth/login [33m429[0m 3.306 ms - 721[0m
+2026-10-02 04:41:03 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mPOST /api/v1/auth/login [33m429[0m 6.793 ms - 721[0m
+[0mPOST /api/v1/auth/login [32m200[0m 296.376 ms - -[0m
+2026-10-02 04:41:15 [[32minfo[39m]: [32mSocket connected: 6abf5fb138b02bfe65fb470e (mVi6150_K6OOkwAOAAAV)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.301 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.192 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 8.605 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 22.366 ms - -[0m
+[0mGET /api/v1/client/dashboard [32m200[0m 20.905 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.798 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [32m200[0m 7.161 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.674 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.435 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 6.986 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.633 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 10.837 ms - -[0m
+[0mGET /api/v1/milestones/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 6.556 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.192 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 15.505 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.229 ms - -[0m
+[0mGET /api/v1/payments/wallet [32m200[0m 3.543 ms - 466[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.208 ms - 139[0m
+[0mGET /api/v1/reviews/my-written [32m200[0m 10.008 ms - 74[0m
+[0mGET /api/v1/projects?status=completed&page=1&limit=10 [32m200[0m 21.740 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.547 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.255 ms - 139[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 12.788 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 15.652 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 9.938 ms - 139[0m
+[0mPOST /api/v1/reviews/projects/6abf9380c6efc35ecd09c6c7 [32m201[0m 145.629 ms - 808[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 16.888 ms - 130[0m
+[0mGET /api/v1/reviews/my-written [32m200[0m 19.708 ms - 786[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 27.100 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.997 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 10.032 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.676 ms - 139[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.986 ms - 139[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.505 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.392 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 9.951 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [32m200[0m 33.996 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.729 ms - 139[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 6.014 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 4.966 ms - -[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 35.013 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.665 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.502 ms - 139[0m
+[0mGET /api/v1/contracts?page=1&limit=10&as=client [36m304[0m 16.995 ms - -[0m
+[0mGET /api/v1/analytics/public [32m200[0m 7.093 ms - 177[0m
+[0mGET /api/v1/categories/tree [32m200[0m 9.111 ms - -[0m
+[0mGET /api/v1/users/freelancers?page=1&limit=12 [32m200[0m 23.418 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?status=open&limit=50 [32m200[0m 5.304 ms - 165[0m
+[0mGET /api/v1/users/freelancers?minRating=4.5&page=1&limit=12 [32m200[0m 17.814 ms - -[0m
+[0mGET /api/v1/catalogs/freelancer/6abf9110c6efc35ecd09c552?page=1&limit=6 [32m200[0m 21.493 ms - 176[0m
+[0mGET /api/v1/reviews/users/6abf9110c6efc35ecd09c552?page=1&limit=6 [32m200[0m 34.858 ms - -[0m
+[0mGET /api/v1/users/6abf9110c6efc35ecd09c552/profile [32m200[0m 41.410 ms - -[0m
+[0mGET /api/v1/profile/6abf9110c6efc35ecd09c552/followers-count [32m200[0m 5.463 ms - 70[0m
+[0mGET /api/v1/profile/6abf9110c6efc35ecd09c552/is-following [32m200[0m 16.607 ms - 88[0m
+[0mGET /api/v1/availability/public/6abf9110c6efc35ecd09c552 [32m200[0m 18.690 ms - 305[0m
+[0mGET /api/v1/availability/public/6abf9110c6efc35ecd09c552/slots?from=2026-10-02T11:46:20.370Z&to=2026-11-01T11:46:20.371Z&durationMinutes=30 [32m200[0m 39.486 ms - 207[0m
+[0mGET /api/v1/availability/public/6abf9110c6efc35ecd09c552/slots?from=2026-10-02T11:47:12.886Z&to=2026-11-01T11:47:12.886Z&durationMinutes=60 [32m200[0m 25.109 ms - 207[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.198 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.267 ms - -[0m
+[0mGET /api/v1/client/dashboard [32m200[0m 19.238 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.945 ms - -[0m
+[0mGET /api/v1/notifications/preferences [32m200[0m 5.405 ms - 911[0m
+[0mGET /api/v1/users/me/profile [32m200[0m 6.015 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.606 ms - 139[0m
+2026-10-02 04:48:07 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [33m401[0m 2.144 ms - -[0m
+2026-10-02 04:48:07 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 1.803 ms - -[0m
+2026-10-02 04:48:07 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications?limit=5 [33m401[0m 1.581 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 7.210 ms - 730[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 18.428 ms - 139[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [36m304[0m 28.190 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 31.624 ms - -[0m
+2026-10-02 04:48:12 [[32minfo[39m]: [32mSocket disconnected: 6abf9110c6efc35ecd09c552 (hVkcZV_jjbKYHDSyAAAN)[39m
+[0mGET /api/v1/auth/me [32m200[0m 8.089 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.266 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.611 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.200 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 16.781 ms - -[0m
+[0mGET /api/v1/projects/6abf9380c6efc35ecd09c6c7 [32m200[0m 12.074 ms - -[0m
+2026-10-02 04:48:12 [[32minfo[39m]: [32mSocket connected: 6abf5fb138b02bfe65fb470e (PX60MLUALu73rURWAAAX)[39m
+[0mGET /api/v1/categories/tree [36m304[0m 6.128 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 7.517 ms - -[0m
+[0mGET /api/v1/jobs/my/jobs?sortBy=newest&page=1&limit=10 [36m304[0m 5.109 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 5.204 ms - 69[0m
+2026-10-02 04:48:25 [[32minfo[39m]: [32mSocket disconnected: 6abf5fb138b02bfe65fb470e (PX60MLUALu73rURWAAAX)[39m
+[0mPOST /api/v1/auth/login [32m200[0m 294.741 ms - -[0m
+2026-10-02 04:48:30 [[32minfo[39m]: [32mSocket connected: 6abf9110c6efc35ecd09c552 (vG8nDYLArHdmCVwRAAAZ)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.199 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.189 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 9.724 ms - 130[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 24.565 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [32m200[0m 32.277 ms - 890[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 39.085 ms - -[0m
+[0mGET /api/v1/users/me/profile [32m200[0m 27.768 ms - -[0m
+2026-10-02 04:48:32 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h11m27.249534555s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43887s"}][39m
+2026-10-02 04:48:32 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [32m200[0m 2396.568 ms - 943[0m
+2026-10-02 04:48:38 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h11m21.747351886s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43881s"}][39m
+2026-10-02 04:48:38 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [36m304[0m 1264.325 ms - -[0m
+2026-10-02 04:48:45 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h11m16.257498326s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43876s"}][39m
+2026-10-02 04:48:45 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [36m304[0m 2850.465 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.283 ms - -[0m
+2026-10-02 04:48:50 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h11m9.492674697s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43869s"}][39m
+2026-10-02 04:48:50 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [36m304[0m 1482.839 ms - -[0m
+2026-10-02 04:48:56 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h11m3.916189699s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43863s"}][39m
+2026-10-02 04:48:56 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [36m304[0m 1528.899 ms - -[0m
+[0mGET /api/v1/applications/my?page=1&limit=10 [32m200[0m 12.628 ms - -[0m
+[0mGET /api/v1/projects?page=1&limit=10 [32m200[0m 16.046 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 8.964 ms - 130[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.579 ms - -[0m
+[0mGET /api/v1/messages/conversations [32m200[0m 5.875 ms - -[0m
+[0mGET /api/v1/messages/conversations/6abf93ffc6efc35ecd09c7f8/messages?limit=50 [36m304[0m 10.020 ms - -[0m
+[0mPOST /api/v1/ai-messaging/conversations/6abf93ffc6efc35ecd09c7f8/settings [32m200[0m 7.339 ms - 829[0m
+[0mGET /api/v1/messages/conversations [32m200[0m 4.782 ms - 77[0m
+[0mGET /api/v1/messages/conversations [36m304[0m 5.519 ms - -[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [32m200[0m 16.880 ms - 390[0m
+[0mGET /api/v1/messages/conversations/eligible-contacts [36m304[0m 17.125 ms - -[0m
+[0mPOST /api/v1/messages/conversations/start [32m200[0m 17.111 ms - -[0m
+[0mGET /api/v1/messages/conversations [32m200[0m 8.612 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.994 ms - -[0m
+[0mGET /api/v1/profile/6abf5fb138b02bfe65fb470e/is-following [32m200[0m 6.737 ms - 88[0m
+[0mGET /api/v1/profile/6abf5fb138b02bfe65fb470e/followers-count [32m200[0m 13.699 ms - 70[0m
+[0mGET /api/v1/profile/6abf5fb138b02bfe65fb470e/trust-score [32m200[0m 20.646 ms - 116[0m
+[0mGET /api/v1/users/6abf5fb138b02bfe65fb470e/profile-card [32m200[0m 35.360 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.243 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.124 ms - -[0m
+[0mGET /api/v1/messages/conversations [36m304[0m 5.827 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 4.934 ms - 130[0m
+[0mGET /api/v1/ai-messaging/messages/6abf93ffc6efc35ecd09c7f8/pinned [32m200[0m 5.438 ms - 71[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.197 ms - 130[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.853 ms - -[0m
+2026-10-02 04:50:04 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h9m55.546479937s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43795s"}][39m
+2026-10-02 04:50:04 [[33mwarn[39m]: [33mAI messaging unavailable: AI service is temporarily unavailable. Please try again later.[39m
+[0mPOST /api/v1/ai-messaging/rewrite [32m200[0m 1154.297 ms - 185[0m
+2026-10-02 04:50:12 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h9m47.789905755s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43787s"}][39m
+2026-10-02 04:50:12 [[33mwarn[39m]: [33mAI messaging unavailable: AI service is temporarily unavailable. Please try again later.[39m
+[0mPOST /api/v1/ai-messaging/grammar [32m200[0m 2680.280 ms - 182[0m
+2026-10-02 04:50:15 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h9m44.902732144s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43784s"}][39m
+2026-10-02 04:50:15 [[33mwarn[39m]: [33mAI messaging unavailable: AI service is temporarily unavailable. Please try again later.[39m
+[0mPOST /api/v1/ai-messaging/grammar [32m200[0m 746.827 ms - 182[0m
+[0mGET /api/v1/messages/conversations [36m304[0m 6.654 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.820 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.874 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.540 ms - -[0m
+2026-10-02 04:50:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 04:50:38 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 12h9m21.624931576s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43761s"}][39m
+2026-10-02 04:50:38 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [36m304[0m 12845.158 ms - -[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 3.768 ms - 69[0m
+2026-10-02 04:50:43 [[32minfo[39m]: [32mSocket disconnected: 6abf9110c6efc35ecd09c552 (vG8nDYLArHdmCVwRAAAZ)[39m
+[0mPOST /api/v1/auth/login [32m200[0m 311.273 ms - -[0m
+2026-10-02 04:50:47 [[32minfo[39m]: [32mSocket connected: 6a78ac0349670f180ecc3e4f (z2KOPTQbCsdW5qObAAAb)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.368 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.648 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 13.951 ms - 108[0m
+[0mGET /api/v1/admin/dashboard [32m200[0m 16.825 ms - 240[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 27.284 ms - 170[0m
+[0mGET /api/v1/analytics/platform [32m200[0m 19.409 ms - 946[0m
+[0mGET /api/v1/admin/finance/revenue?period=monthly [32m200[0m 26.371 ms - 236[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.322 ms - -[0m
+[0mGET /api/v1/admin/users/stats [32m200[0m 9.200 ms - 128[0m
+[0mGET /api/v1/admin/users?page=1&limit=15 [32m200[0m 17.453 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.534 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 15.445 ms - -[0m
+[0mGET /api/v1/admin/users?page=1&limit=15&period=month [32m200[0m 12.367 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.259 ms - -[0m
+[0mGET /api/v1/admin/users?page=1&limit=15&period=week [32m200[0m 12.861 ms - -[0m
+[0mGET /api/v1/admin/users?page=1&limit=15&period=day [32m200[0m 7.136 ms - -[0m
+[0mGET /api/v1/admin/users/6abf9110c6efc35ecd09c552 [32m200[0m 13.726 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.505 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 14.924 ms - -[0m
+[0mGET /api/v1/developer-verifications/admin/all?page=1&limit=10&sort=latest [36m304[0m 9.806 ms - -[0m
+[0mGET /api/v1/developer-verifications/admin/stats [36m304[0m 19.449 ms - -[0m
+[0mGET /api/v1/admin/jobs?page=1&limit=15 [32m200[0m 12.854 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.808 ms - -[0m
+[0mGET /api/v1/admin/jobs/6abf8dd7c6efc35ecd09c387 [32m200[0m 8.134 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.883 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.525 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.603 ms - -[0m
+[0mGET /api/v1/categories/admin/stats [36m304[0m 18.210 ms - -[0m
+[0mGET /api/v1/categories/admin/tree [36m304[0m 35.273 ms - -[0m
+[0mGET /api/v1/categories/admin/overview [32m200[0m 38.044 ms - -[0m
+[0mGET /api/v1/admin/projects?page=1&limit=15 [32m200[0m 12.738 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.228 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.084 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.468 ms - -[0m
+[0mGET /api/v1/categories/admin/tree [36m304[0m 17.518 ms - -[0m
+[0mGET /api/v1/categories/admin/overview [36m304[0m 18.434 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.385 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.690 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d0cb225a846351e232/overview [32m200[0m 18.278 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d0cb225a846351e232/freelancers?page=1&limit=10 [32m200[0m 30.850 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.247 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d0cb225a846351e232/jobs?page=1&limit=10 [32m200[0m 12.689 ms - 171[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.696 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.704 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.361 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 8.642 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.466 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.564 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d1cb225a846351e272/overview [32m200[0m 14.851 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d1cb225a846351e272/freelancers?page=1&limit=10 [32m200[0m 25.404 ms - -[0m
+[0mGET /api/v1/categories/admin/6a78a0d1cb225a846351e272/jobs?page=1&limit=10 [32m200[0m 17.899 ms - 793[0m
+[0mGET /api/v1/categories/admin/6a78a0d1cb225a846351e272/services?page=1&limit=10 [32m200[0m 18.383 ms - 175[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 9.219 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.699 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 7.007 ms - -[0m
+[0mGET /api/v1/admin/services/catalogs?page=1&limit=15&status=all&sortBy=newest [32m200[0m 27.576 ms - 172[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 11.175 ms - -[0m
+[0mGET /api/v1/admin/services/orders?page=1&limit=15&status=all [36m304[0m 19.124 ms - -[0m
+[0mGET /api/v1/admin/reviews?page=1&limit=15 [32m200[0m 10.568 ms - 835[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 5.479 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.880 ms - -[0m
+[0mGET /api/v1/admin/finance/revenue?period=daily [32m200[0m 36.547 ms - 250[0m
+[0mGET /api/v1/admin/finance/live-stats [32m200[0m 47.306 ms - 254[0m
+[0mGET /api/v1/admin/finance/category-revenue [32m200[0m 45.288 ms - 152[0m
+[0mGET /api/v1/admin/finance/overview [32m200[0m 70.114 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.944 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.567 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.010 ms - -[0m
+[0mGET /api/v1/admin/finance/live-stats [32m200[0m 21.310 ms - 254[0m
+2026-10-02 04:56:02 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 7.422 ms - 721[0m
+2026-10-02 04:56:03 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 6.815 ms - 721[0m
+2026-10-02 04:56:05 [[33mwarn[39m]: [33mToo many requests from this IP. Please try again in 15 minutes.[39m
+[0mGET /api/v1/notifications/unread-count [33m429[0m 7.548 ms - 721[0m
+[0mGET /api/v1/admin/finance/payment-stats?includeDemo=true [32m200[0m 17.973 ms - 417[0m
+[0mGET /api/v1/admin/finance/payments?page=1&limit=15&includeDemo=true [32m200[0m 29.199 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.946 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.724 ms - 108[0m
+[0mGET /api/v1/admin/finance/payment-stats?type=deposit [32m200[0m 15.501 ms - 339[0m
+[0mGET /api/v1/admin/finance/payments?page=1&limit=15&type=deposit [32m200[0m 30.852 ms - -[0m
+[0mGET /api/v1/admin/finance/payments?page=1&limit=15&type=deposit&status=completed [32m200[0m 25.303 ms - -[0m
+[0mGET /api/v1/admin/finance/escrow-stats [32m200[0m 28.971 ms - 116[0m
+[0mGET /api/v1/admin/finance/refunds [32m200[0m 57.868 ms - 131[0m
+[0mGET /api/v1/admin/finance/disputes?page=1&limit=10 [32m200[0m 53.344 ms - 172[0m
+[0mGET /api/v1/admin/finance/escrows?page=1&limit=15 [32m200[0m 60.512 ms - -[0m
+[0mGET /api/v1/admin/finance/disputes?page=1&limit=10&resolved=true [32m200[0m 55.065 ms - 175[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.355 ms - -[0m
+[0mGET /api/v1/admin/finance/escrows?page=1&limit=15&status=funded,in_progress,submitted [32m200[0m 14.375 ms - 165[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.817 ms - -[0m
+[0mGET /api/v1/admin/finance/escrows?page=1&limit=15&status=pending [32m200[0m 11.627 ms - 165[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.040 ms - -[0m
+[0mGET /api/v1/admin/finance/withdrawal-stats [32m200[0m 13.132 ms - 107[0m
+[0mGET /api/v1/admin/finance/withdrawals?page=1&limit=15 [32m200[0m 18.113 ms - 169[0m
+[0mGET /api/v1/admin/finance/commission/history?page=1&limit=15 [32m200[0m 24.161 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.481 ms - -[0m
+[0mGET /api/v1/admin/finance/commission/settings [32m200[0m 5.734 ms - 217[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.583 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.704 ms - -[0m
+[0mGET /api/v1/admin/finance/reports/summary [32m200[0m 14.189 ms - 329[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.981 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.774 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.472 ms - -[0m
+[0mGET /api/v1/admin/finance/reports/summary?startDate=2026-10-02&endDate=2026-10-02 [32m200[0m 17.288 ms - 280[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.199 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 4.604 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.370 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.273 ms - -[0m
+[0mGET /api/v1/admin/reports/stats [36m304[0m 10.681 ms - -[0m
+[0mGET /api/v1/admin/reports?page=1&limit=15 [36m304[0m 10.103 ms - -[0m
+[0mGET /api/v1/admin/services/analytics [36m304[0m 65.733 ms - -[0m
+[0mGET /api/v1/admin/services/catalogs?page=1&limit=15&status=all&sortBy=highest-rated [32m200[0m 13.749 ms - 172[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.706 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.859 ms - -[0m
+[0mGET /api/v1/admin/settings/platform [32m200[0m 12.707 ms - 497[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 6.169 ms - -[0m
+[0mGET /api/v1/support/admin/tickets?page=1&limit=20 [36m304[0m 16.464 ms - -[0m
+[0mGET /api/v1/support/admin/stats [36m304[0m 21.821 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.469 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.610 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 8.630 ms - -[0m
+2026-10-02 04:59:38 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 04:59:38 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications/unread-count [33m401[0m 7.678 ms - -[0m
+2026-10-02 04:59:38 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+2026-10-02 04:59:38 [[33mwarn[39m]: [33mAccess token expired. Please refresh your token.[39m
+[0mGET /api/v1/notifications?limit=5 [33m401[0m 3.566 ms - -[0m
+[0mGET /api/v1/notifications/preferences [33m401[0m 1.279 ms - -[0m
+[0mGET /api/v1/users/me/profile [33m401[0m 0.939 ms - -[0m
+[0mPOST /api/v1/auth/refresh [32m200[0m 7.650 ms - 741[0m
+2026-10-02 04:59:38 [[33mwarn[39m]: [33mProfile not found[39m
+[0mGET /api/v1/users/me/profile [33m404[0m 18.465 ms - 323[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 19.908 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 25.209 ms - -[0m
+[0mGET /api/v1/notifications/preferences [32m200[0m 26.964 ms - 911[0m
+[0mPOST /api/v1/auth/logout [32m200[0m 2.964 ms - 69[0m
+2026-10-02 04:59:42 [[32minfo[39m]: [32mSocket disconnected: 6abf5fb138b02bfe65fb470e (mVi6150_K6OOkwAOAAAV)[39m
+[0mPOST /api/v1/auth/login [32m200[0m 296.902 ms - -[0m
+2026-10-02 04:59:48 [[32minfo[39m]: [32mSocket connected: 6abf9110c6efc35ecd09c552 (oMsbdYnTZxpTN5xfAAAd)[39m
+[0mGET /api/v1/payments/mode [36m304[0m 0.254 ms - -[0m
+[0mGET /api/v1/payments/mode [36m304[0m 0.217 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 10.311 ms - 130[0m
+[0mGET /api/v1/service-orders/stats?as=freelancer [36m304[0m 21.917 ms - -[0m
+[0mGET /api/v1/analytics/freelancer [36m304[0m 27.778 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [32m200[0m 24.869 ms - -[0m
+[0mGET /api/v1/users/me/profile [32m200[0m 17.099 ms - -[0m
+2026-10-02 04:59:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:00:00 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.896 ms - -[0m
+2026-10-02 05:00:13 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 05:00:13 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 05:00:14 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.172 ms - 130[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 11.704 ms - -[0m
+2026-10-02 05:00:25 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:00:26 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.517 ms - 130[0m
+2026-10-02 05:00:37 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed[39m
+2026-10-02 05:00:37 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash unavailable — falling back to next model[39m
+2026-10-02 05:00:37 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:00:48 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 7.677 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.876 ms - -[0m
+2026-10-02 05:00:49 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 05:00:49 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+2026-10-02 05:00:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:01:00 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:01:02 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.152 ms - -[0m
+2026-10-02 05:01:11 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed[39m
+2026-10-02 05:01:11 [[33mwarn[39m]: [33m[AI] All Gemini models unavailable: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:01:11 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:01:11 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:01:13 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 13.816 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.005 ms - -[0m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+2026-10-02 05:01:23 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed[39m
+2026-10-02 05:01:23 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash unavailable — falling back to next model[39m
+2026-10-02 05:01:25 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 05:01:25 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 05:01:34 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 500ms[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.820 ms - -[0m
+2026-10-02 05:01:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:01:36 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:01:45 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:01:47 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:01:47 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 14.879 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 9.484 ms - -[0m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+2026-10-02 05:01:56 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed[39m
+2026-10-02 05:01:56 [[33mwarn[39m]: [33m[AI] All Gemini models unavailable: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:01:56 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:01:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed[39m
+2026-10-02 05:01:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash unavailable — falling back to next model[39m
+2026-10-02 05:01:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 05:01:59 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.533 ms - -[0m
+2026-10-02 05:02:07 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:02:09 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:02:10 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:02:18 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 6.865 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.292 ms - -[0m
+2026-10-02 05:02:20 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed — retrying in 1500ms[39m
+2026-10-02 05:02:21 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 2/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 1500ms[39m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+2026-10-02 05:02:30 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed[39m
+2026-10-02 05:02:30 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest unavailable — falling back to next model[39m
+2026-10-02 05:02:32 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.5-pro still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: fetch failed[39m
+2026-10-02 05:02:32 [[33mwarn[39m]: [33m[AI] All Gemini models unavailable: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:02:32 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+2026-10-02 05:02:33 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash still unavailable after 3 attempts: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed[39m
+2026-10-02 05:02:33 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash unavailable — falling back to next model[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.262 ms - -[0m
+2026-10-02 05:02:39 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:02:40 [[33mwarn[39m]: [33m[AI] Gemini gemini-2.0-flash transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: fetch failed — retrying in 500ms[39m
+2026-10-02 05:02:41 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: [404 Not Found] This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3.1-pro-preview for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 05:02:41 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent: [404 Not Found] This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3.1-pro-preview for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 05:02:41 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 11h57m18.647323547s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43038s"}][39m
+2026-10-02 05:02:41 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [32m200[0m 12139.730 ms - 943[0m
+2026-10-02 05:02:41 [[31merror[39m]: [31m[AI] Gemini call failed: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+2026-10-02 05:02:41 [[31merror[39m]: [31mAI service error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [404 Not Found] This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).[39m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 7.023 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 18.146 ms - -[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 5.441 ms - -[0m
+2026-10-02 05:03:11 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Request aborted when fetching https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: This operation was aborted — retrying in 500ms[39m
+[0mGET /api/v1/jobs/recommended/for-me [0m-[0m - ms - -[0m
+2026-10-02 05:03:15 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 11h56m44.324148436s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-3.8-flash"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43004s"}][39m
+2026-10-02 05:03:15 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 6.988 ms - 130[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 10.211 ms - -[0m
+[0mGET /api/v1/categories/tree [36m304[0m 5.257 ms - -[0m
+2026-10-02 05:03:25 [[33mwarn[39m]: [33m[AI] Gemini gemini-flash-latest transient failure (attempt 1/3): [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [503 Service Unavailable] This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later. — retrying in 500ms[39m
+2026-10-02 05:03:26 [[33mwarn[39m]: [33m[AI] Gemini quota/rate limit reached — not retrying: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. [39m
+[33m* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.8-flash[39m
+[33mPlease retry in 11h56m33.687038572s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-3.8-flash","location":"global"},"quotaValue":"20"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"42993s"}][39m
+2026-10-02 05:03:26 [[31merror[39m]: [31mAI service error: AI service is temporarily unavailable. Please try again later.[39m
+[0mGET /api/v1/jobs/recommended/for-me [32m200[0m 10724.449 ms - 943[0m
+[0mGET /api/v1/notifications/unread-count [32m200[0m 5.778 ms - 130[0m
+[0mGET /api/v1/notifications/unread-count [36m304[0m 4.499 ms - -[0m
+[0mGET /api/v1/notifications?limit=5 [36m304[0m 16.038 ms - -[0m

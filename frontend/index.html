@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SkillHub — The freelance platform for web developers. Find top talent or land your next project." />
+    <meta name="theme-color" content="#070b20" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <title>SkillHub — Freelance Platform for Web Developers</title>
+    <script>
+      // Apply the persisted theme before first paint to avoid a dark flash for light-mode users.
+      (function () {
+        try {
+          var isDark = true;
+          var raw = localStorage.getItem('skillhub-auth');
+          if (raw) {
+            var parsed = JSON.parse(raw);
+            if (parsed && parsed.state && typeof parsed.state.isDark === 'boolean') {
+              isDark = parsed.state.isDark;
+            }
+          }
+          if (!isDark) {
+            document.documentElement.classList.remove('dark');
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', '#f9fafb');
+          }
+        } catch (e) {
+          /* keep default dark theme */
+        }
+      })();
+    </script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- TalkSilo Widget -->
+    <script async
+      src="https://talksilo.com/widget.js"
+      data-key="7b4a0cd9-c562-46a6-8c2c-714c0f321474">
+    </script>
+  </body>
+</html>

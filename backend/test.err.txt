@@ -1,0 +1,1 @@
+[WARN] JWT secrets are weak for development environment: JWT_ACCESS_SECRET looks like a placeholder/default value; JWT_REFRESH_SECRET looks like a placeholder/default value. This will block startup in production. Generate strong unique secrets before deploying.
