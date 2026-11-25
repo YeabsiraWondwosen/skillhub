@@ -1,0 +1,600 @@
+{
+  "nav": {
+    "home": "መነሻ",
+    "findWork": "ስራ ፈልግ",
+    "findTalent": "ሰራተኛ ፈልግ",
+    "postJob": "ስራ ጠቅልል",
+    "dashboard": "ዳሽቦርድ",
+    "messages": "መልዕክቶች",
+    "notifications": "ማሳወቂያዎች",
+    "profile": "መመዝገቢያ",
+    "settings": "ማስተካከያ",
+    "signOut": "ውጣ",
+    "signIn": "ግባ",
+    "signUp": "ተመዝገብ",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን",
+    "logIn": "ግባ",
+    "browseJobs": "ስራዎች ተመልከት",
+    "findTalentShort": "ሰራተኛ ፈልግ",
+    "categories": "ምድቦች",
+    "search": "ፈልግ",
+    "searchPlaceholder": "ሰራተኞችን፣ ስራዎችን ፈልግ..."
+  },
+  "hero": {
+    "eyebrow": "የፍሪላንስ ስራ የወደፊት እውነታ",
+    "headlineFind": "ትክክለኛውን ችሎታ ፈልግ።",
+    "headlineBuild": "ትርጉም ያለው ስራ ግንባታ።",
+    "description": "SkillHub ንግዶችን በቴክኖሎጂ፣ ዲዛይን፣ ግብይት፣ ጽሑፍ፣ የፈጠራ አገልግሎቶች፣ ንግድ እና ሌሎች መስኮች ላይ ካሉ ሙያተኞች ጋር ያገናኛል — በብልህ ማዛመድ የሚመራ እና በታመነ ትብብር ላይ የተገነባ።",
+    "findTalent": "ችሎታ ፈልግ",
+    "startFreelancing": "ፍሪላንሲንግ ጀምር",
+    "freeToJoin": "ለመቀላቀል ነፃ",
+    "verifiedProfessionals": "የተረጋገጡ ባለሙያዎች",
+    "securePayments": "ደህንነቱ የተጠበቀ ክፍያ",
+    "aiMatching": "በAI የሚሰራ ማዛመድ",
+    "freeToJoinSub": "ለመጀመር ምንም ወጪ የለውም",
+    "verifiedProfessionalsSub": "የታመኑ የሙያ መገለጫዎች",
+    "securePaymentsSub": "በእስክሮው የተጠበቀ ክፍያ",
+    "aiMatchingSub": "ብልህ የችሎታ ምክሮች",
+    "categoriesLabel": "የሙያ ምድቦች",
+    "skillsLabel": "ልዩ ችሎታዎች",
+    "exploreCategoriesTitle": "ምድቦችን ያስሱ",
+    "exploreCategoriesSub": "በምድብ ችሎታ ይመልከቱ",
+    "categoryFooter": "በሁሉም ምድቦች ውስጥ ችሎታዎችን ያግኙ"
+  },
+  "features": {
+    "title": "ለስኬት ሁሉንም ያስፈልግዎን",
+    "subtitle": "በሁሉም ኢንዱስትሪዎች ላለው ችሎታ ለተፋጠሩ ተሞክሮ እና ለሚቀጥሯቸው ደንበኛዎች ተስፋፊ መድረክ።",
+    "multiCategory": {
+      "title": "ብዙ ምድር ገበያ",
+      "desc": "ከማስተንት እስከ ዲዛይን፣ ከመጻፊት እስከ ግብይት — በሁሉም ምድቦች ውስጥ ምርጥ ችሎታ ፈልግ።"
+    },
+    "escrow": {
+      "title": "ደህንነቱ የተጠበቀ ማስወጣት",
+      "desc": "ክፍያ ሥራ እስከሚፈተሽ ድረስ በማስወጣት ላይ ይጠብቃል። ለሁለቱም ወገኖች ሙሉ የክፍያ ጥበቃ።"
+    },
+    "fees": {
+      "title": "ግልጽ ክፍያ",
+      "desc": "ቀላል 10% የመድረክ ክፍያ — ምንም ድብቅ ክፍያ የለም።"
+    },
+    "verified": {
+      "title": "የተረጋገጠ ችሎታ",
+      "desc": "ሰራተኞች በፖርትፎሊዮ ጥራት እና በመድረክ ታሪክ ላይ ይረጋገጣሉ።"
+    },
+    "aiMatch": {
+      "title": "በ AI የሚሰራ ማዋላት",
+      "desc": "በብልህ ስክिल-ማዋላት አልጎሪዝም ለሁሉም ፕሮጀክት ምርጥ ማዋላት።"
+    },
+    "workspace": {
+      "title": "በእውነተኛ ጊዜ የስራ ቦታ",
+      "desc": "በአንድ ቦታ ውስጥ ቅፍ ቆሬንት፣ ፋይል መጋራት፣ ሚልስቶንዎች እና የፕሮጀክት መከታተያ።"
+    }
+  },
+  "howItWorks": {
+    "title": "በብልህ ሁኔታ መስራት",
+    "subtitle": "ፕሮጀክት ከመስራት እስከ ክፍያ መቀበል — እያንዳንዱ እርምጃ በግልጽነት፣ በደህንነት እና በፍጥነት ይעצבናል።",
+    "badge": "ስክሂሎት እንዴት ይሠራል",
+    "forClients": "ለደንበኛዎች",
+    "forFreelancers": "ለሰራተኞች",
+    "step": "እርምጃ",
+    "clients": {
+      "step1": { "title": "ፕሮጀክትዎን ይጠቅልሉ", "desc": "ፕሮጀክትዎን ይግለጹ፣ በጀት ያስቀምጡ እና ሚልስቶንዎችን ይወስኑ።" },
+      "step2": { "title": "AI ምርጥ ችሎታን ያዋላል", "desc": "የእኛ ብልህ ማዋላት መሣሪያ ስክሂሎችን፣ ተሞክሮን እና የመድረክ ምስጠራን ይተኛል።" },
+      "step3": { "title": "ያረጋግጡ እና በመተማመን ይቅጠሩ", "desc": " מציעቶችን ያነጻቅሩ፣ የተረጋጥቱ ባጌትን ይፈትን።" },
+      "step4": { "title": "ማስወጣት በደህንነት ይያዙ", "desc": "ንብረት ወደ ደህንነቱ የተጠበቀ ማስወጣት ስርዓት ያስቀምጡ።" },
+      "step5": { "title": "በእውነተኛ ጊዜ ይስሩ", "desc": "በቀጥታ ውይይት፣ ፋይል መጋራት እና ሚልስቶን መከታተያ ተጠቀም።" },
+      "step6": { "title": "ክፍያ ወዲያውኑ ይቀበሉ", "desc": "ሚልስቶን ተፈትኖ በኋላ ክፍያ ወዲያውኑ ወደ ዋሌትዎ ይሄዳል።" },
+      "step7": { "title": "ረጅም ጊዜ ግንኙነት ይገንጙ", "desc": "ተወዳጆችን ሰራተኛ ያስቀምጡ እና ተመτን ስብሰባዎችን ይገንጙ።" }
+    },
+    "freelancers": {
+      "step1": { "title": "የተረጋገጠ መመዝገቢያዎን ይሠሩ", "desc": "ስክሂሎችዎን፣ ፖርትፎሊዮዎን እና ተሞክሮዎን ያሳዩ።" },
+      "step2": { "title": "ተስማሚ ፕሮጀክቶችን ያግኙ", "desc": "ለስክሂሎችዎ ተስማሚ የሆኑ ስራዎችን ያስሱ።" },
+      "step3": { "title": "ያሸንፏቸውን መረጃ ይላኩ", "desc": "በ.smart ቴምፕሌት አስደናቂ መረጃዎችን ይፃፉ።" },
+      "step4": { "title": "ይወያዩ እና ይቅጠሩ", "desc": "ከደንበኛዎች ጋር በቀጥታ ውይይት ወይም ቪዲዮ ተጠቀም።" },
+      "step5": { "title": "በክፍያ ጥበቃ ይስሩ", "desc": "በመተማመን ይስሩ — በማስወጣት የተጠበቀ ክፍያ ይተግባል።" },
+      "step6": { "title": "ወዲያውኑ ይክፈሉ", "desc": "ሚልስቶን ተፈትኖ በኋላ ክፍያ ወዲያውኑ ወደ ዋሌትዎ ይሄዳል።" },
+      "step7": { "title": "ሙያዎን ያሻሽሉ", "desc": "ባንኮችን ያግኙ፣ ምስጠራ ያድርጉ እና ተጨማሪ ዕድሎችን ይክፈቱ።" }
+    }
+  },
+  "cta": {
+    "headline": "ከትክክለኛው ችሎታ ጋር ታላቅ ነገር ይገንቡ",
+    "subtitle": "ከተሞክሮ ያላቸው ባለሙያዎች ጋር ይገናኙ፣ ልዩ እውቀትን ይገኝቡ እና የሚቀጥለውን ፕሮጀክትዎን በልበ ሙሉነት ያስጀምሩ።",
+    "findTalent": "ችሎታ ፈልግ",
+    "startFreelancing": "ፍሪላንሲንግ ጀምር",
+    "trustVerified": "የተረጋገጡ ባለሙያዎች",
+    "trustPayments": "ደህንነቱ የተጠበቀ ክፍያ",
+    "trustAI": "በAI የሚሰራ ማዛመድ",
+    "trustHiring": "ፈጣን የቅጥር ሂደት",
+    "statCategories": "የሙያ ምድቦች",
+    "statSkills": "ልዩ ችሎታዎች",
+    "statFreelancers": "የተረጋገጡ ባለሙያዎች",
+    "mockTitle": "የተረጋገጡ ፍሪላነሮች",
+    "mockSubtitle": "ለመቅጠር ዝግጁ የሆኑ ምርጥ ችሎታዎች",
+    "verifiedSub": "ሊተማመኑባቸው የሚችሉ መገለጫዎች",
+    "aiSub": "ብልህ የችሎታ ምክሮች"
+  },
+  "stats": {
+    "freelancers": "ሰራተኞች",
+    "clients": "ደንበኛዎች",
+    "projectsDone": "የተጠናቀቁ ፕሮጀክቶች",
+    "openJobs": "ክፍት ስራዎች"
+  },
+  "common": {
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "allCategories": "ሁሉም ምድር ስልዎች",
+    "loading": "በመጫን ላይ...",
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "edit": "አርትዕ",
+    "delete": "ሰርዝ",
+    "submit": "ላክ",
+    "back": "ተመለስ",
+    "next": "ቀጥል",
+    "previous": "ቀጥለህ",
+    "noResults": "ምንም ውጤት አልተገኘም",
+    "showMore": "ተጨማሪ አሳይ",
+    "showLess": "ያንሳ",
+    "perHour": "/ሰዓት",
+    "etb": "ብር",
+    "goBack": "ተመለስ",
+    "home": "መነሻ"
+  },
+  "payments": {
+    "wallet": {
+      "title": "ዋሌት",
+      "subtitle": "ገንዘብህን፣ ታክሲዎችን እና ማስወጫዎችን ያስተዳድር",
+      "buttons": {
+        "deposit": "ገንዘብ አስገባ",
+        "withdraw": "ገንዘብ አስወግድ",
+        "transactions": "የግብይት ታሪክ"
+      },
+      "quickActions": {
+        "title": "ፈጣን እርምጃዎች"
+      },
+      "stats": {
+        "availableBalance": "የሚጠቀም ብር",
+        "availableBalanceDesc": "ለመጠቀም ወይም ለማስወገድ ዝግጁ ነው",
+        "inEscrow": "በእስክሮው",
+        "inEscrowDesc": "ለተጠቃሚ ሚልስቶንሽ ይይዛል",
+        "totalEarned": "ድምር የተያዘ",
+        "totalEarnedDesc": "የሕይወት ገቢ",
+        "totalSpent": "ድምር የወጪ",
+        "totalSpentClientDesc": "በፕሮጀክቶች ላይ የወጥ",
+        "totalSpentFreelancerDesc": "ወደ ባንክ የተላከ"
+      },
+      "info": {
+        "title": "የዋሌት መረጃ",
+        "currency": "የገንዘብ አይነት",
+        "status": "ሁኔታ",
+        "statusActive": "ንቁ",
+        "statusInactive": "ያልንቀሳ",
+        "availableToWithdraw": "ለማስወገድ ዝግጁ"
+      },
+      "actions": {
+        "depositStripe": {
+          "label": "በStripe ይገንዘቡ",
+          "desc": "በክሬዲት/ዴቢት ካርድ ዓለም አቀፍ"
+        },
+        "depositChapa": {
+          "label": "በChapa ይገንዘቡ",
+          "desc": "የኢትዮጵያ ክፍያ መንገድ"
+        },
+        "depositTelebirr": {
+          "label": "በTelebirr ይገንዘቡ",
+          "desc": "የኢትዮ ቴሌኮም ሞባይል ገንዘብ"
+        },
+        "depositCbeBirr": {
+          "label": "በCBE Birr ይገንዘቡ",
+          "desc": "የኮሜርሻል ባንክ ኢትዮጵያ"
+        },
+        "withdraw": {
+          "label": "ገንዘብ አስወግድ",
+          "desc": "ወደ ባንክ ወይም ሞባይል ይላክ"
+        },
+        "escrow": {
+          "label": "የእስክሮው አስተዳደር",
+          "desc": "እስክሮውን ይመለከቱ እና ያስተዳድሩ"
+        },
+        "transactions": {
+          "label": "የግብይት ታሪክ",
+          "desc": "ሁሉንም ግብይቶች ይመልከቱ"
+        }
+      }
+    },
+    "escrow": {
+      "backToWallet": "ወደ ዋሌት ተመለስ",
+      "title": "የእስክሮው አስተዳደር",
+      "subtitle": "የተጠበቀ ክፍያዎችን ይከታተሉ እና ያስተዳድሩ",
+      "stats": {
+        "activeEscrows": "ተገኘ እስክሮዎች",
+        "totalHeld": "የተይዘው ጠቅላላ",
+        "totalReleased": "የተለቀቀ ጠቅላላ",
+        "completed": "የተጠናቀቀ"
+      },
+      "statusFilters": {
+        "all": "ሁሉ",
+        "pending": "በቅድሚያ",
+        "funded": "የተገናኘ",
+        "in_progress": "በስራ ላይ",
+        "submitted": "የተላከ",
+        "released": "የተለቀቀ",
+        "refunded": "የተመለሰ",
+        "disputed": "በቅጥር ላይ"
+      },
+      "empty": {
+        "title": "እስክሮዎች አልተገኙም",
+        "description": "ደንበኛዎች ሚልስቶን በእስክሮው ሲያመር እስክሮዎች እዚህ ይታያሉ።"
+      },
+      "project": "ፕሮጀክት",
+      "amount": "መጠን",
+      "freelancer": "ሰራተኛ",
+      "commission": "ኮሚሽን",
+      "freelancerGets": "ሰራተኛው የሚቀበለው",
+      "history": {
+        "funded": "የተገናኘ",
+        "submitted": "የተላከ",
+        "released": "የተለቀቀ",
+        "expires": "ይወድሳል"
+      },
+      "actions": {
+        "fund": "ይገንዙ",
+        "release": "ይለቀቁ",
+        "refund": "ይመለሱ"
+      },
+      "modal": {
+        "fundTitle": "እስክሮውን ይገንዙ",
+        "fundMessage": "ገንዘቡ እስከ እስክሮው ይገባል እስከሚረጋገጥ ድረስ። እስክሮዎችን ለየተለያዩ ፕሮጀክቶች ብቻ ይገንዙ።",
+        "fundConfirm": "እስክሮውን ይገንዙ",
+        "releaseTitle": "ክፍያ ይለቀቁ",
+        "releaseDescription": "እስክሮውን ወደ ሰራተኛ ይልቀቁ። ይህ እርምጃ አይተርፍም።",
+        "ratingLabel": "ደረጃ (አማራጭ)",
+        "cancel": "ሰርዝ",
+        "releasePayment": "ክፍያ ይለቀቁ",
+        "refundTitle": "እስክሮውን ይመለሱ",
+        "refundDescription": "የእስክሮውን ገንዘብ ወደ ዋሌትዎ ይመለስ። ሰራተኛው ክፍያ አይቀበልም።",
+        "reasonLabel": "ምክንያት (አማራጭ)",
+        "reasonPlaceholder": "ለምን እስክሮውን ትመለስ?",
+        "refundEscrow": "እስክሮውን ይመለሱ"
+      }
+    }
+  },
+  "auth": {
+    "email": "ኢሜይል",
+    "emailPlaceholder": "you@example.com",
+    "password": "የይለፍ ቃል",
+    "passwordPlaceholder": "••••••••",
+    "confirmPassword": "የይለፍ ቃል ያረጋግጡ",
+    "firstName": "የመጀመሪያ ስም",
+    "firstNamePlaceholder": "abebe",
+    "lastName": "የኋላ ስም",
+    "lastNamePlaceholder": "kebede",
+    "role": "እኔ መሆን ይፈልጋለሁ",
+    "freelancer": "ሰራተኛ መሆን",
+    "client": "ሰራተኛ መቅጠር",
+    "freelancerDesc": "ፕሮጀክቶች ፈልግ እና አግኘ",
+    "clientDesc": "ስራ ጠቅልል እና ባለሙያዎችን ቅጠር",
+    "register": "መመዝገቢያ ይፍጠሩ",
+    "login": "ግባ",
+    "forgotPassword": "የይለፍ ቃል ተረሳ?",
+    "noAccount": "መመዝገቢያ የለዎት?",
+    "hasAccount": "መመዝገቢያ አለዎት?",
+    "createOne": "አንድ ይፍጠሩ",
+    "signInToAccount": "ወደ መመዝገቢያዎ ይግቡ",
+    "createYourAccount": "መመዝገቢያዎን ይፍጠሩ",
+    "primaryCategory": "ዋና ምድር ስልוץ",
+    "selectCategory": "ዋና ምድር ስልוצዎን ይምረጡ",
+    "categoryHint": "ተጨማሪ ምድር ስልוצችን በኋላ መጨመር ይችላሉ",
+    "agreeTerms": "በመመዝገብ ለርዕሱን ተስማምተዋል",
+    "termsOfService": "የአገልግሎት ውሎች",
+    "and": "እና",
+    "privacyPolicy": "የግላዊነት ፖሊሲ",
+    "forgotTitle": "የይለፍ ቃል ተረሳ?",
+    "forgotDesc": "ኢሜይልዎን ያስገቡ እና ማስተካከያ ማገናኛ እንልወጣለን።",
+    "checkInbox": "ገቢ ሳህኑን ይፈትኑ!",
+    "resetSent": "የይለፍ ቃል ማስተካከያ ማገናኛ ወደ ኢሜይልዎ ልክዎት።",
+    "sendResetLink": "ማስተካከያ ማገናኛ ላክ",
+    "backToLogin": "ወደ መግቢያ ተመለስ",
+    "resetTitle": "አዲስ ይለፍ ቃል ያስቀምጡ",
+    "resetDesc": "ጠንካራ እና ልዩ ይለፍ ቃል ይምረጡ።",
+    "newPassword": "አዲስ የይለፍ ቃል",
+    "newPasswordPlaceholder": "ቢያንስ 8 ቁምፊዎች፣ በላይ አስቀምጥ እና ልዩ ቁምፊ",
+    "confirmNewPassword": "አዲሱን የይለፍ ቃል ያረጋግጡ",
+    "confirmPlaceholder": "ይለፍ ቃል እንደገና ያስገቡ",
+    "resetPassword": "የይለፍ ቃል ያስተካክሉ",
+    "invalidReset": "ልዩ ማገናኛ አይደለም",
+    "requestNew": "አዲስ ይጠይቁ",
+    "emailVerified": "ኢሜይል ተረጋግጧል!",
+    "emailVerifiedDesc": "መመዝገቢያዎ አሁን ንቁ ነው። መግባት ይችላሉ።",
+    "goToLogin": "ወደ መግቢያ ሂድ",
+    "verificationFailed": "ማረጋገጫ አልተሳካም",
+    "verificationFailedDesc": "ማገናኛው ልዩ ነው ወይም ጊዜው አልፏል።",
+    "emailRequired": "ኢሜይል ያስፈልጋል",
+    "passwordRequired": "የይለፍ ቃል ያስፈልጋል",
+    "min6Chars": "ቢያንስ 6 ቁምፊዎች",
+    "invalidEmail": "ልዩ ኢሜይል",
+    "required": "ያስፈልጋል",
+    "min2Chars": "ቢያንስ 2 ቁምፊ",
+    "min8Chars": "ቢያንስ 8 ቁምፊዎች",
+    "passwordPattern": "በላይ አስቀምጥ፣ ቁጥር እና ልዩ ቁምፊ መያዝ አለበት",
+    "passwordsNoMatch": "የይለፍ ቃሎች አይመሳሰሉም",
+    "pwdStrength": "የይለፍ ቃል ጥንካሬ",
+    "pwdMin": "ቢያንስ 8 ቁምፊዎች",
+    "pwdLower": "አንድ ትንሽ ፊደል",
+    "pwdUpper": "አንድ ትልቅ ፊደል",
+    "pwdNumber": "አንድ ቁጥር",
+    "pwdSpecial": "አንድ ልዩ ቁምፊ (@$!%*?&)"
+  },
+  "jobs": {
+    "title": "ስራዎች ፈልግ",
+    "postJob": "ስራ ጠቅልል",
+    "budget": "በጀት",
+    "proposals": "መረጃዎች",
+    "postedAgo": "የተዘረገበ",
+    "skills": "ስክሂሎች",
+    "category": "ምድር ስልוץ",
+    "allJobs": "ሁሉም ስራዎች",
+    "myJobs": "የእኔ ስራዎች",
+    "expired": "ጊዜው ያለፈ",
+    "noJobs": "ምንም ስራ አልተገኘም"
+  },
+  "freelancers": {
+    "title": "ሰራተኞች ፈልግ",
+    "hourlyRate": "የሰዓት ፋስ",
+    "availability": "መገኛ",
+    "available": "ያገኛል",
+    "partiallyAvailable": "በከፊል ያገኛል",
+    "notAvailable": "የለም",
+    "viewProfile": "መመዝገቢያ ተመልከት",
+    "noFreelancers": "ምንም ሰራተኛ አልተገኘም"
+  },
+  "sidebar": {
+    "pro": "SkillHub Pro",
+    "tagline": "ብዙ ምድር ገበንገኛ ገበያ",
+    "adminPanel": "የአድሚን ፓነል",
+    "freelancer": "ሰራተኛ",
+    "client": "ደንበኛ",
+    "helpSupport": "እርዳታ እና ድጋፍ",
+    "dashboard": "ዳሽቦርድ",
+    "browseJobs": "ስራዎች ተመልከት",
+    "myProposals": "የእኔ መረጃዎች",
+    "receivedProposals": "የተቀበሉ መረጃዎች",
+    "myProjects": "የእኔ ፕሮጀክቶች",
+    "projectManagement": "የፕሮጀክት አስተዳደር",
+    "messages": "መልዕክቶች",
+    "myCatalogs": "የእኔ ማውጫዎች",
+    "serviceOrders": "የአገልግሎት ትዕዛዞች",
+    "myServiceOrders": "የእኔ የአገልግሎት ትዕዛዞች",
+    "codingChallenges": "የኮዲንግ ተግባራት",
+    "verification": "ማረጋገጫ",
+    "projectPlanner": "የፕሮጀክት ማስታወሻ",
+    "earnings": "ገንዘብ",
+    "profile": "መመዝገቢያ",
+    "editProfile": "መገለጫ አርትዕ",
+    "calendar": "ካሌንዳ",
+    "meetings": "ስብሰባዎች",
+    "notifications": "ማስታወቂያዎች",
+    "publicProfile": "ፖርትፎሊዮ ቅድመ እይታ",
+    "groupHome": "መነሻ",
+    "groupWork": "ስራ",
+    "groupServices": "አገልግሎቶች",
+    "groupCareer": "ሙያ",
+    "groupPlanning": "እቅድ",
+    "groupProfile": "መገለጫ",
+    "groupSystem": "ስርዓት",
+    "groupUserManagement": "የተጠቃሚዎች አስተዳደር",
+    "groupMarketplace": "የገበያ ቦታ",
+    "groupModeration": "ክትትል",
+    "groupJobs": "ስራዎች",
+    "groupHiring": "መቅጠር",
+    "groupProjects": "ፕሮጀክቶች",
+    "groupCommunication": "መግባባት",
+    "groupInsights": "ግንዛቤዎች",
+    "groupAccount": "መለያ",
+    "groupSupport": "ድጋፍ",
+    "savedServices": "የተቀመጡ አገልግሎቶች",
+    "postAJob": "ስራ ጠቅልል",
+    "myJobs": "የእኔ ስራዎች",
+    "browseServices": "አገልግሎቶች ተመልከት",
+    "contracts": "ውሎች",
+    "analytics": "ተንታኝነት",
+    "wallet": "ዋሌት",
+    "users": "ተጠቃሚዎች",
+    "jobs": "ስራዎች",
+    "payments": "ክፍያዎች",
+    "finance": "ፋይናንስ",
+    "financialDashboard": "የፋይናንስ ዳሽቦርድ",
+    "transactions": "ግብይቶች",
+    "deposits": "ተቀማጮ ገንዘብ",
+    "withdrawals": "የገንዘብ ማስወጫ",
+    "escrow": "ኢስክሮ",
+    "revenueCommission": "የכנס እና ቅናሽ",
+    "refunds": "ተመላሽ",
+    "invoices": "ኢንቫይስ",
+    "paymentGateways": "የክፍያ መንገድ",
+    "financialReports": "የፋይናንስ ሪፖርቶች",
+    "reviews": "ግምገማዎች",
+    "reports": "ሪፖርቶች",
+    "services": "አገልግሎቶች",
+    "serviceCatalog": "ካታሎግ አስተዳደር",
+    "featuredServices": "ተመራጭ አገልግሎቶች",
+    "reportedServices": "ሪፖርት የተደረጉ አገልግሎቶች",
+    "serviceAnalytics": "የአገልግሎት ትንታኔ",
+    "supportTickets": "የድጋፍ ተICKETS",
+    "categories": "ምድር ስልוצች",
+    "verifications": "ማረጋገጫዎች",
+    "settings": "ማስተካከያ"
+  },
+  "footer": {
+    "tagline": "በኢትዮጵያ ውስጥ ከሚታመኑ ደንበኞች እና ችሎታ ካላቸው ነፃ ሰራተኞች ጋር ይገናኙ።",
+    "allRights": "መብቱ በህግ የተጠበቀ ነው።",
+    "forClients": "ለደንበኛዎች",
+    "forFreelancers": "ለሰራተኞች",
+    "company": "ኩባንያ",
+    "support": "ድጋፍ",
+    "legal": "ህጋዊ",
+    "postJob": "ስራ ጠቅልል",
+    "findFreelancers": "ሰራተኛ ፈልግ",
+    "browseServices": "አገልግሎቶች ተመልከት",
+    "howSkillHubWorks": "SkillHub እንዴት ይሠራል",
+    "findWork": "ስራ ፈልግ",
+    "browseJobs": "ስራዎች ተመልከት",
+    "createProfile": "መመዝገቢያ ይፍጠሩ",
+    "buildPortfolio": "ፖርትፎሊዮ ይሠሩ",
+    "aboutUs": "ስለ እኛ",
+    "careers": "ሙያዎች",
+    "contactUs": "ያግኙን",
+    "helpCenter": "የእርዳታ ማዕከል",
+    "faq": "ተደጋጋሚ ጥያቄዎች",
+    "contactSupport": "ድጋፍ ያግኙ",
+    "trustAndSafety": "ተማማንነት እና ደህንነት",
+    "termsOfService": "የአገልግሎት ውሎች",
+    "privacyPolicy": "የግላዊነት ፖሊሲ",
+    "cookiePolicy": "የኩኪ ፖሊሲ"
+  },
+  "error": {
+    "notFound": "ገጹ አልተገኘም",
+    "notFoundDesc": "የሚፈልጉት ገጹ የለም ወይም ተቀንብቧል።"
+  },
+  "notifications": {
+    "title": "ማሳወቂያዎች",
+    "markAllRead": "ሁሉንም ትርጉም አድርግ",
+    "noNotifications": "ምንም ማሳወቂያ የለም",
+    "viewAll": "ሁሉንም ተመልከት"
+  },
+  "profile": {
+    "dashboard": "ዳሽቦርድ",
+    "myProfile": "መመዝገቢያዬ",
+    "messages": "መልዕክቶች",
+    "wallet": "ዋሌት",
+    "helpAndSupport": "እርዳታ እና ድጋፍ",
+    "signOut": "ውጣ"
+  },
+  "browseCategories": {
+    "badge": "ምድር ስልዎችን ያስሱ",
+    "title": "በምድር ስልוץ ችሎታ ያግኙ",
+    "subtitle": "በብዙ ኢንዱስትሪዎች ውስጥ ያሉ ችሎታ ያላቸውን ባለሙያዎች ያስሱ እና ለፕሮጀክትዎ ምርጥ ባለሙያን ያግኙ።",
+    "freelancers": "ሰራተኞች",
+    "explore": "ያስሱ",
+    "viewAll": "ሁሉም ምድር ስልוצች ተመልከት",
+    "showLess": "ያንሳ",
+    "noResults": "ምንም ምድር ስልוץ አልተገኘም"
+  }
+  ,
+  "dashboard": {    "admin": {
+      "title": "የፕላትፎርም አድሚን ዳሽቦርድ",
+      "subtitle": "የፕላትፎርም እይታ፣ ፕሮጀክቶችን እና ተጠቃሚዎችን አስተዳደር ይፈጽሙ።",
+      "cards": {
+        "totalUsers": "አጠቃላይ ተጠቃሚዎች",
+        "freelancers": "አርእስተኞች",
+        "clients": "ደንበኞች",
+        "totalJobs": "አጠቃላይ ስራዎች",
+        "openJobs": "ክፍት ስራዎች",
+        "activeProjects": "ንቁ ፕሮጀክቶች",
+        "completedProjects": "የተጠናቀቁ ፕሮጀክቶች",
+        "platformRevenue": "የፕላትፎርም ገቢ",
+        "pendingReports": "የሚጠብቁ ሪፖርቶች",
+        "newUsersMonth": "የወሩ የተጨማሪ ተጠቃሚዎች"
+      },
+      "revenue": {
+        "show": "ገቢ አሳይ",
+        "hide": "ገቢ ዝቅ አድርግ"
+      },
+      "projectStatus": {
+        "pendingDelivery": "በማረጋገጥ ላይ",
+        "active": "ንቁ",
+        "completed": "የተጠናቀቀ",
+        "pendingPayment": "የክፍያ ቅድሚያ",
+        "onHold": "በመጠባበቅ ላይ",
+        "inRevision": "በማስተካከል ላይ",
+        "cancelled": "ተሰርዟል",
+        "disputed": "ተከሰነ"
+      }
+    },    "recruiter": {
+      "title": "የእየፈለጉ ዳሽቦርድ",
+      "subtitle": "እንዲያስፈልጉ የሚረዱ እና የሚከታተሉ ተጠሪዎች ይፈልጉ",
+      "actions": { "newPipeline": "መገናኛ ፓይፕላይን" },
+      "stats": { "activePipelines": "ንቁ ፓይፕላይኖች", "totalCandidates": "አጠቃላይ እንደ ሰው", "avgMatchScore": "አማራጭ ግንኙነት", "hired": "ተቀጥሯል", "inPipeline": "በፓይፕላይን ውስጥ" },
+      "tabs": { "search": "ፈልግ", "pipelines": "ፓይፕላይኖች", "compare": "አነጻጸር ({{count}})" },
+      "pipelineCard": { "candidates": "{{count}} እንግዶች" },
+      "empty": { "pipelines": { "title": "ፓይፕላይን የለም", "description": "የእንግዶችን እንዲከታተሉ ፓይፕላይን ይፍጠሩ." } },
+      "compare": { "empty": { "title": "የሚወደዱትን ይምረጡ", "description": "ከዚህ በላይ ሁለት ሰዎችን ለአንድ ግምገማ ይምረጡ." } },
+      "modal": { "title": "ፓይፕላይን ይፍጠሩ", "pipelineName": { "label": "የፓይፕላይን ስም", "placeholder": "ስም ያስገቡ" }, "description": { "label": "መግለጫ", "placeholder": "አማራጭ መግለጫ" }, "cancel": "ሰርዝ", "create": "ፍጠር", "creating": "በመፍጠር..." },
+      "errors": { "maxCompare": "እስከ 5 ሰዎች መነጻጸር ይችላሉ." },
+      "confirm": { "deletePipeline": "ይህን ፓይፕላይን ማጥፋት ይፈልጋሉ?" }
+    },
+    "freelancer": {
+      "welcomeBack": "እንኳን ደህና መጣህ, {{name}}",
+      "subtitle": "የባለሙያ እይታዎች እና ስታትስቲክስ",
+      "profileStrength": "የመገለጫ ጥራት",
+      "profileStrengthMessages": { "complete": "መገለጫ ተጠናቀቀ", "goodProgress": "እየበረከተ ነው", "incomplete": "በተጨማሪ መግለጫ ይሙሉ" },
+      "actions": { "editProfile": "መገለጫን አርትዕ", "preview": "ቅድመ እይታ", "reviews": "እይታዎች", "availability": "የሚኖሩ ጊዜያት", "viewAll": "ሁሉን ይመልከቱ", "apply": "ይላኩ" },
+      "sections": { "earningsOverview": "የገቢ እይታ", "recentReviews": "የቅርብ ጊዜ እይታዎች", "recommendedJobs": "የተመደቡ ስራዎች" },
+      "empty": { "earnings": { "title": "ገቢ የለውም", "description": "ስራዎችን ከማጠናቀቅ በኋላ ይታያል" } },
+      "reviews": { "empty": { "title": "ምንም እይታ የለም", "description": "የደንበኞች እይታዎች እዚህ ይታያሉ." } },
+      "recommendations": { "empty": { "title": "ምንም ምክር የለም", "description": "ከመገለጫዎ በማስከተል የAI ምክር ይቀበሉ." }, "actions": { "completeProfile": "መገለጫን ይሙሉ" } },
+      "stats": { "activeProjects": "ንቁ ፕሮጀክቶች", "pendingProposals": "እየተመረሙ የማቅረብ", "completed": "የተጠናቀቀ", "serviceOrders": "የአገልግሎት ትዕዛዞች", "totalEarnings": "ጠቅላላ ገቢ" },
+      "earningsChartLabel": "ገቢ"
+    },
+    "commission": {
+      "backToAdmin": "አስተዳደር",
+      "title": "የኮሚሽን እና የአቅርቦት ሪፖርት",
+      "subtitle": "የመድረክ ገቢ እና የክፍያ አቅርቦች ትንተና",
+      "summary": { "totalTransactions": "ጠቅላላ ውሎች", "totalVolume": "ድምር አጠን", "totalCommission": "ጠቅላላ ኮሚሽን", "avgCommission": "አማራጭ ኮሚሽን" },
+      "providers": { "title": "በአቅርቦት የተቀመጡ እሴቶች", "noData": "ምንም የክፍያ ውሎ የለም", "deposits": "ውሎች" },
+      "filters": { "startDate": "መጀመሪያ ቀን", "endDate": "መጨረሻ ቀን", "clear": "ፍርግ" },
+      "transactions": { "title": "የኮሚሽን ዝርዝር", "noData": "የኮሚሽን ውሎ አልተገኙም" }
+    },
+    "client": {
+      "welcomeBack": "እንኳን ደህና መጣህ, {{name}}",
+      "subtitle": "የደንበኛ ዳሽቦርድ — ፕሮጀክቶች፣ ክፍያዎች እና መልዕክቶች",
+      "actions": {
+        "postJob": "ስራ ያቅርቡ",
+        "browseServices": "አገልግሎቶችን ያስመልክ"
+      },
+      "stats": {
+        "activeJobs": "ንቁ ስራዎች",
+        "activeProjects": "ንቁ ፕሮጀክቶች",
+        "completedProjects": "የተጠናቀቁ ፕሮጀክቶች",
+        "serviceOrders": "የአገልግሎት ትዕዛዞች",
+        "totalSpent": "ጠቅላላ ወጪ",
+        "pendingReviews": "የሚጠበቁ ግምገማዎች",
+        "totalJobsPosted": "አጠቃላይ የተለጠፉ ስራዎች"
+      },
+      "sections": {
+        "spendingAnalytics": "የወጪ ትንተና",
+        "walletOverview": "የዋሌት እይታ",
+        "activeProjects": "ንቁ ፕሮጀክቶች",
+        "recentOrders": "የቅርብ ትዕዛዞች",
+        "recentJobs": "የቅርብ ስራዎች",
+        "recentMessages": "የቅርብ መልዕክቶች"
+      },
+      "spendingChartLabel": "ወጪ",
+      "wallet": {
+        "totalSpent": "ጠቅላላ ወጪ",
+        "thisMonth": "ወሩ",
+        "escrowHeld": "በእስክሮው የተያዘ",
+        "completedPayments": "የተከናወኑ ክፍያዎች",
+        "refunds": "መመለሶች"
+      },
+      "notifications": {
+        "needsAttention": "የሚጠይቁ ነገሮች",
+        "paymentRequired": "ለመጀጀር ክፍያ ያስፈልጋል",
+        "leaveReview": "የተጠናቀቀ ፕሮጀክት ለማገለጥ ግምገማ ይስጡ"
+      },
+      "empty": {
+        "spending": { "title": "የወጪ መረጃ የለም", "description": "ማስጀመርህ በኋላ የወጪ ማጠቃለያ እዚህ ይታያል።" },
+        "activeProjects": { "title": "ንቁ ፕሮጀክቶች የሉም", "description": "እዚህ ለማየት ፕሮጀክት ጀምር." },
+        "recentOrders": { "title": "የቅርብ ትዕዛዞች የሉም", "description": "እርስዎ ሲገዙ ትዕዛዞች እዚህ ይታያሉ።" },
+        "recentJobs": { "title": "የቅርብ ስራዎች የሉም", "description": "ለባለሙያዎች ስራ ለማመላለስ ስራ ያቅርቡ." },
+        "attention": { "title": "ማስታወቂያ የለም", "description": "እርስዎ ሁሉንም ተከታትለዋል።" },
+        "recentMessages": { "title": "መልዕክቶች የሉም", "description": "ማንኛውም ሰው ሲያገናኝዎ መልዕክቶች እዚህ ይታያሉ።" }
+      }
+    },
+    "adminFinance": {
+      "tabs": { "overview": "እይታ", "analytics": "ትንተና", "escrow": "እስክሮው", "payments": "ክፍያ", "withdrawals": "አገናኝ", "commissions": "ኮሚሽን", "refunds": "መመለስ", "reports": "ሪፖርቶች", "audit": "ኦዲት", "settings": "ቅንብሮች" },
+      "datePresets": { "today": "ዛሬ", "sevenDays": "7 ቀናት", "thirtyDays": "30 ቀናት", "thisMonth": "ወራቱ", "lastMonth": "ያለው ወር" },
+      "audit": { "timeline": "የእስክሮው ታሪክ", "noTimeline": "የታሪክ ክስተቶች የሉም" }
+    }
+  }
+}
